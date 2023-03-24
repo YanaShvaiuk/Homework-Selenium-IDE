@@ -1,0 +1,388 @@
+{
+  "id": "7e2f9f8e-d9d1-4f72-b68b-a29f3e1e8105",
+  "version": "2.0",
+  "name": "Shvayuk Y. Lesson 25",
+  "url": "https://makeup.com.ua",
+  "tests": [{
+    "id": "8e40c2bd-b09d-417e-a141-f77e0505ce3f",
+    "name": "1",
+    "commands": [{
+      "id": "cef39ae7-23a1-4763-bbd1-6f0692ee8ef3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02795a1f-9a26-41d3-ae4b-64f4d6501d3d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "811a8662-d8eb-4433-aed5-b284682bf3cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Парфюмерия",
+      "targets": [
+        ["linkText=Парфюмерия", "linkText"],
+        ["css=.menu-list__item:nth-child(3) > .menu-list__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Парфюмерия')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/categorys/3/')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8990e06c-07e8-4803-b6ba-946847adbb4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,223.6800079345703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e211d87-8a84-4ca1-8fc1-1c0d677c9e70",
+      "comment": "",
+      "command": "click",
+      "target": "id=popularinput-checkbox-2243-23877",
+      "targets": [
+        ["id=popularinput-checkbox-2243-23877", "id"],
+        ["css=#popularinput-checkbox-2243-23877", "css:finder"],
+        ["xpath=//li[@id='popularinput-checkbox-2243-23877']", "xpath:attributes"],
+        ["xpath=//div[@id='filter-block-wrap']/div/div/div/ul/li[7]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/ul/li[7]", "xpath:position"],
+        ["xpath=//li[contains(.,'Yves Saint Laurent(72)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e6d494-375e-4977-9293-42f69a919a98",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,223.6800079345703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df7aa3e6-5a96-4c2f-ab60-912cb34e2bcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=body > div.site-wrap > div.main-wrap > div > div > div:nth-child(2) > div.catalog > div.catalog-content > div > div.catalog-products > ul > li:nth-child(2) > div.simple-slider-list__link > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13b7c507-b226-40d9-a9cd-5932f28cfcd6",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=/html/body/div[1]/div[1]/div/div/div[2]/div[1]/div/div[2]/h1/span[1]",
+      "targets": [],
+      "value": "Yves Saint Laurent Black Opium"
+    }, {
+      "id": "450195f5-d736-433a-88a3-46774d607ed5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=body > div.site-wrap > div.main-wrap > div > div > div:nth-child(2) > div.product-item > div > div.product-item__buy > div.product-item__row > div.product-item__price-wrap > span.product-item__price > div > span.price_item",
+      "targets": [],
+      "value": "2145"
+    }]
+  }, {
+    "id": "7ed8d227-5554-46e4-a8e7-95eb6689af4d",
+    "name": "2",
+    "commands": [{
+      "id": "7d9a662f-62fb-4fec-9361-224bd26ff6f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71470704-6f6e-4787-b1e5-01123a74d238",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db862fd3-397a-4a99-aa88-5d84c48953b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper-slide-active .stories-list__item__inner",
+      "targets": [
+        ["css=.swiper-slide-active .stories-list__item__inner", "css:finder"],
+        ["xpath=//div[@id='stories-container']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf625b12-876d-47d7-9446-ffd53d0edafc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#stories-list__fullscreen__item-59 > div:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52b81c96-55f2-461e-b9fe-b4104f0bf543",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"stories-list__fullscreen__item-60\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32f201d4-beae-4978-8bd8-08373d3f6bdc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#stories-list__fullscreen__item-62 > div.stories-list__fullscreen__item__header > div.stories-list__fullscreen__item__header__title",
+      "targets": [],
+      "value": "Panouge"
+    }, {
+      "id": "5e982ce8-6863-490d-8926-97cb720f24f2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//*[@id=\"stories-list__fullscreen__item-63\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6d8c4e6-f552-40b6-b3db-d9756f2151b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stories-container > div.stories-list__fullscreen > div.stories-list__fullscreen__slider > div > div > div.swiper-slide.swiper-slide-active > div.stories-list__fullscreen__showMore",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "307757ee-ee13-4667-b880-65927aa50686",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stories-container > div.stories-list__fullscreen > div.stories__fullscreen__products > div > div.swiper-container.swiper-container-initialized.swiper-container-horizontal.swiper-container-pointer-events.mySwiper > div > div > div > div.stories__fullscreen__products__card__image > a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4746fbd1-18cd-4eb1-8e87-9e444ddf8de8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=/html/body/div[1]/div[1]/div/div/div[2]/div[1]/div/div[3]/div[3]/div[2]",
+      "targets": [],
+      "value": "код товара: 1179577"
+    }]
+  }, {
+    "id": "5e6a53b1-bad4-471a-8b0b-ac154859fe1c",
+    "name": "3",
+    "commands": [{
+      "id": "7cf5df8d-a42c-4724-bb25-6ec403019768",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33241f4c-ec32-4be7-8937-73d446efe37b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52298828-ea75-4487-b9a4-306b321559e3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,12486.0703125)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a54a321d-6828-46c2-904c-8d6a7adfc700",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Сотрудничество с нами",
+      "targets": [
+        ["linkText=Сотрудничество с нами", "linkText"],
+        ["css=.cooperation__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Сотрудничество с нами')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/cooperation/')]", "xpath:href"],
+        ["xpath=//footer/div/div/div[2]/div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Сотрудничество с нами')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a63f97f0-4b8c-49ac-bede-ab2f5781241c",
+      "comment": "",
+      "command": "click",
+      "target": "id=legal-name",
+      "targets": [
+        ["id=legal-name", "id"],
+        ["name=legal-name", "name"],
+        ["css=#legal-name", "css:finder"],
+        ["xpath=//input[@id='legal-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e5c6e1-4bff-4b2a-b990-db5f267c415d",
+      "comment": "",
+      "command": "type",
+      "target": "id=legal-name",
+      "targets": [
+        ["id=legal-name", "id"],
+        ["name=legal-name", "name"],
+        ["css=#legal-name", "css:finder"],
+        ["xpath=//input[@id='legal-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "213213"
+    }, {
+      "id": "ee003999-4656-406f-96f2-bb40f6af443b",
+      "comment": "",
+      "command": "click",
+      "target": "id=manager-contacts-name",
+      "targets": [
+        ["id=manager-contacts-name", "id"],
+        ["name=manager-contacts-name", "name"],
+        ["css=#manager-contacts-name", "css:finder"],
+        ["xpath=//input[@id='manager-contacts-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05e51b14-7a3b-47ae-bc1a-6876f6c2ee54",
+      "comment": "",
+      "command": "type",
+      "target": "id=manager-contacts-name",
+      "targets": [
+        ["id=manager-contacts-name", "id"],
+        ["name=manager-contacts-name", "name"],
+        ["css=#manager-contacts-name", "css:finder"],
+        ["xpath=//input[@id='manager-contacts-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "21321321"
+    }, {
+      "id": "a9f4cc05-ea1d-4268-9c35-cf707f57c18d",
+      "comment": "",
+      "command": "click",
+      "target": "id=executor-contacts-name",
+      "targets": [
+        ["id=executor-contacts-name", "id"],
+        ["name=executor-contacts-name", "name"],
+        ["css=#executor-contacts-name", "css:finder"],
+        ["xpath=//input[@id='executor-contacts-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19f8878c-5a74-4477-a168-5f61719be31a",
+      "comment": "",
+      "command": "type",
+      "target": "id=executor-contacts-name",
+      "targets": [
+        ["id=executor-contacts-name", "id"],
+        ["name=executor-contacts-name", "name"],
+        ["css=#executor-contacts-name", "css:finder"],
+        ["xpath=//input[@id='executor-contacts-name']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "321321321"
+    }, {
+      "id": "88fe0e2d-cffb-4c5e-90b6-2ad026fe4ef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=executor-contacts-email",
+      "targets": [
+        ["id=executor-contacts-email", "id"],
+        ["name=executor-contacts-email", "name"],
+        ["css=#executor-contacts-email", "css:finder"],
+        ["xpath=//input[@id='executor-contacts-email']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[4]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb1206fe-67c5-40cd-82e4-7f716ba56019",
+      "comment": "",
+      "command": "click",
+      "target": "id=site",
+      "targets": [
+        ["id=site", "id"],
+        ["name=site", "name"],
+        ["css=#site", "css:finder"],
+        ["xpath=//input[@id='site']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ced8f9d-d71b-4d7a-8788-fd31bb4b60f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=site",
+      "targets": [
+        ["id=site", "id"],
+        ["name=site", "name"],
+        ["css=#site", "css:finder"],
+        ["xpath=//input[@id='site']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "321321321"
+    }, {
+      "id": "a461a638-9817-4e41-bc0a-a2b50ab70436",
+      "comment": "",
+      "command": "click",
+      "target": "id=brands",
+      "targets": [
+        ["id=brands", "id"],
+        ["name=brands", "name"],
+        ["css=#brands", "css:finder"],
+        ["xpath=//textarea[@id='brands']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4896653-a307-4c00-aeb2-d4bd64b662ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=brands",
+      "targets": [
+        ["id=brands", "id"],
+        ["name=brands", "name"],
+        ["css=#brands", "css:finder"],
+        ["xpath=//textarea[@id='brands']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "321321321321"
+    }, {
+      "id": "ad6a7552-595b-41a0-af5d-009b9c9d3107",
+      "comment": "",
+      "command": "click",
+      "target": "id=send-cooperation",
+      "targets": [
+        ["id=send-cooperation", "id"],
+        ["css=#send-cooperation", "css:finder"],
+        ["xpath=//button[@id='send-cooperation']", "xpath:attributes"],
+        ["xpath=//form[@id='cooperation-form']/div[7]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bac2c7cd-7faf-4c7a-b9eb-3a7d289daa89",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#cooperation-message",
+      "targets": [],
+      "value": "Заполните, пожалуйста, все обязательные поля"
+    }]
+  }],
+  "suites": [{
+    "id": "503eb02c-5471-4d1c-a425-2b2bd45d306d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://makeup.com.ua/"],
+  "plugins": []
+}
